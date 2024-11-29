@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Negozio</title>
+     <link rel="stylesheet" href="assets/css/style.css">
+     <script type="application/javascript" src="assets/js/script.js"></script>
+  </head>
+  
+
+ <body>
+      
+         <header>
+           <h1>Shameless</h1>
+         </header>
+
+
+         <main id="container">
+            <button type="button" onclick="modElement()">Modifica Titolo</button>
+            <button type="button" onclick="CambiaCss('nero')">Sfondo Nero</button>
+            <button type="button" onclick="CambiaCss('bianco')">Sfondo bianco</button>
+            <button onclick="addClassToAmazonLinks()">Evidenzia Link Amazon</button>
+            <button onclick="toggleImagesVisibility()">Nascondi/Mostra Immagini</button>
+            <button onclick="cambiaColorePrezzo()">Cambia Colore Prezzo</button>
+
+
+         <article>
+         <ul>
+            <li class="prodotto">GUUVOR - Auricolari In-Ear, Cuffie Sportive Magnetiche Cablate per l'isolamento Acustico, Potenti Cuffie da Gioco per Bassi, Porta Jack da 3,5 mm, Colore: Nero<a href="https://www.amazon.it/GUUVOR-Auricolari-Resistente-Isolamento-Definizione/dp/B07N1D9MZD/ref=asc_df_B07N1D9MZD?mcid=540dd75acab539f2a3d7c32f9db4613b&tag=googshopit-21&linkCode=df0&hvadid=700827118213&hvpos=&hvnetw=g&hvrand=17162656067251237021&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008475&hvtargid=pla-683113912494&psc=1&gad_source=1" class="link">Vai su Amazon</a><img src="assets/img/img1.jpg" alt="img">    </li>
+            <div class="prezzo">7.99</div>
+            <div>
+               <textarea placeholder="Lascia un commento sul prodotto"></textarea>
+               <button type="button">Invia Commento</button>
+           </div>
+            <li class="prodotto">SERVOMASTER Cuffie Wireless, Cuffie Senza Filo 30 Ore Di Riproduzione, Solo 3,6 G Di Cuffie In Ear, Compatibile Con Auricolari Wireless ios E Android, Cuffie Senza Fili Suono Stereo, Smart Touch<a href="https://www.amazon.it/SERVOMASTER-Wireless-Riproduzione-Compatibile-Auricolari/dp/B0CZS1FBS2" class="link">Vai su Amazon</a><img src="assets/img/img 2.jpg" alt="img"></li>
+            <div class="prezzo">9.99</div>
+            <div>
+               <textarea placeholder="Lascia un commento sul prodotto"></textarea>
+               <button type="button">Invia Commento</button>
+           </div>
+         </main>
+
+
+         <footer id="footer">
+         <article>
+         <ul>
+            <li class="prodotto">ANSTEN Cuffie per Dormire, In Ear Cuffie Antirumore Bluetooth 5.4, Auricolare Invisibile Durata della Batteria 48 ore Auricolari per Dormire Cuffie Wireless per Allenamento Sportivo<a href="https://www.amazon.it/ANSTEN-Antirumore-Auricolari-Bluetooth-Riduzione/dp/B0D5691LYW" class="link">Vai su Amazon</a><img src="assets/img/img 3.jpg" alt="img"></li>
+            <div class="prezzo">38.34</div>
+            <div>
+               <textarea placeholder="Lascia un commento sul prodotto"></textarea>
+               <button type="button">Invia Commento</button>
+           </div>
+            <li class="prodotto">Apple AirPods 4 Auricolari wireless Auricolari Bluetooth, Audio spaziale personalizzato, Resistenza al sudore e allacqua, Custodia di ricarica USB-C, Chip H2, Fino a 24 ore di autonomia<a href="https://www.amazon.it/Apple-Auricolari-Bluetooth-personalizzato-Resistenza/dp/B0DGHWD7CT" class="link">Vai su Amazon</a><img src="assets/img/img 4.jpg" alt="img"></li>
+            <div class="prezzo">121.99</div>
+            <div>
+               <textarea placeholder="Lascia un commento sul prodotto"></textarea>
+               <button type="button">Invia Commento</button>
+           </div>
+            <li class="prodotto">Soundcore Cuffie Bluetooth by Anker P20i, Auricolari Bluetooth 5.3, Cuffie Wireless In-ear Driver 10mm con Bassi Potenti, 30 Ore di Riproduzione Resistenza acqua IPX5, EQ, 2 microfoni chiamate AI<a href="https://www.amazon.it/soundcore-Bluetooth-Auricolari-Riproduzione-Resistenza/dp/B0BTYCRJSS" class="link">Vai su Amazon</a><img src="assets/img/img 5.jpg" alt="img"></li>
+            <div class="prezzo">16.49</div>
+            <div>
+               <textarea placeholder="Lascia un commento sul prodotto"></textarea>
+               <button type="button">Invia Commento</button>
+           </div>
+         </ul>
+         </article>
+         <p id="address">Via Sempione, 147, Milano</p>
+         <button onclick="changeAddress()">Cambia Indirizzo</button>
+            
+         </footer>
+
+
+ </body>
+
+ </html>

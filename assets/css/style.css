@@ -1,0 +1,106 @@
+h1 {
+   color: rgb(43, 108, 165);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   border: solid;
+   width: 340px;
+   border-right: transparent;
+   border-left: transparent;
+   border-bottom: transparent;
+   font-weight: bold;
+   font-size: 70px;
+   margin: 20px;
+   margin-bottom: 100px;
+}
+
+
+#container ul li{
+   display: flex;
+   text-align: left;
+   width: 700px;
+   flex-direction: row;
+   gap: 50px;
+   align-content: space-around;
+   margin: 20px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: bold;
+   font-size: 17px;
+   margin-bottom: 150px;
+}
+
+
+.prodotto img {
+    height: 300px;
+    width: 300px;
+    order: -1;
+}
+
+
+.prezzo {
+    position: absolute;
+    left: 410px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+
+#container ul div:nth-child(2){
+    top: 400px;
+ }
+
+
+ #container ul div:nth-child(5){
+    top: 910px;
+    left: 355px;
+
+ }
+
+
+ body {
+   background-color: white;
+}
+
+
+.Evidenzia {
+   color: red;
+   font-weight: bold;
+   text-decoration: underline;
+}
+
+
+.nascondi {
+   display: none;
+   
+}
+
+
+ #footer ul li{
+   display: flex;
+   text-align: left;
+   width: 700px;
+   flex-direction: row;
+   gap: 50px;
+   align-content: space-around;
+   margin: 20px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: bold;
+   font-size: 17px;
+   margin-bottom: 150px;
+}
+
+
+#footer ul div:nth-child(2){
+   bottom: -515px;
+   left: 420px;
+}
+
+
+#footer ul div:nth-child(5){
+   bottom: -1515px;
+   left: 367px;
+}
+
+
+#footer ul div:nth-child(8){
+   bottom: -1025px;
+   left: 420px;
+}
